@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    
+    <color name="colorPrimary">#0277bd</color>
+    <color name="colorPrimaryDark">#004c8c</color>
+    <color name="colorAccent">#0277bd</color>
+    <color name="textColor">#121212</color>
+    <color name="deepPurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00b5a5</color>
+    <color name="pink">#d242ec</color>
+    <color name="red">#f73e7c</color>
+    <color name="grey">#c1c1c1</color>
+
+
+    <color name="faculty">#7c4dff</color>
+    <color name="notice">#ffb300</color>
+    <color name="delete">#00b5a5</color>
+    <color name="pdf">#d242ec</color>
+    <color name="photo">#f73e7c</color>
+
+
+    <color name="title_color">#FF000000</color>
+    <color name="card_color">#B09ECA</color>
+    <color name="color1">#FF6F5397</color>
+    <color name="color4">#D3B869</color>
+    <color name="color2">#90CD93</color>
+    <color name="color3">#9DDBE3</color>
+    <color name="color5">#E89B83</color>
+    <color name="color6">#A986DC</color>
+    <color name="color7">#E36A93</color>
+    <color name="color8">#ffb300</color>
+
+    <color name="color04">#CDC683</color>
+    <color name="color02">#ACD1AE</color>
+    <color name="color03">#93B3B8</color>
+    <color name="color05">#DCAEA0</color>
+    <color name="color06">#B09ECA</color>
+    <color name="color01">#FF86779C</color>
+
+    <color name="color07">#96CAC5</color>
+    <color name="color08">#B898B7</color>
+
+
+    <color name="fcard">#A5ACD5</color>
+
+    <color name="splash">#A1A1A1</color>
+
+</resources>

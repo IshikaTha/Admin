@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pdf.PdfActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pFab"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        android:elevation="3dp"
+        app:fabSize="normal"
+        android:contentDescription="@string/todo" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btech_1st_year"
+                    android:textSize="30sp"
+                    android:textColor="@color/textColor"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@string/normal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color1">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cse1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/cse"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color2">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/it1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/it"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color6">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ece1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ece"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color3">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ee1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ee"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color4">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/eie1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@string/normal"
+                                android:gravity="center"
+                                android:text="@string/eie"
+                                android:textColor="@color/white"
+                                android:textSize="40sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color8">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ft1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ft"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btech_2nd_year"
+                    android:textSize="30sp"
+                    android:textColor="@color/textColor"
+                    android:gravity="center"
+                    android:fontFamily="@string/normal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color1">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cse2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/cse"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color2">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/it2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/it"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color6">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ece2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ece"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color3">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ee2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ee"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color4">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/eie2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@string/normal"
+                                android:gravity="center"
+                                android:text="@string/eie"
+                                android:textColor="@color/white"
+                                android:textSize="40sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color8">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ft2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ft"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btech_3rd_year"
+                    android:textSize="30sp"
+                    android:textColor="@color/textColor"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@string/normal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color1">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cse3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/cse"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color2">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/it3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/it"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color6">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ece3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ece"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color3">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ee3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ee"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color4">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/eie3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@string/normal"
+                                android:gravity="center"
+                                android:text="@string/eie"
+                                android:textColor="@color/white"
+                                android:textSize="40sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color8">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ft3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ft"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btech_4th_year"
+                    android:textSize="30sp"
+                    android:textColor="@color/textColor"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="@string/normal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color1">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cse4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/cse"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color2">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/it4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/it"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color6">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ece4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ece"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:padding="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginEnd="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color3">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ee4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ee"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginHorizontal="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color4">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/eie4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/eie"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/pdf_card"
+                            android:backgroundTint="@color/color8">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/ft4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:text="@string/ft"
+                                android:textSize="40sp"
+                                android:textStyle="bold"
+                                android:fontFamily="@string/normal"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

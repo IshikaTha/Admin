@@ -1,0 +1,105 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AdminApp</string>
+
+    <string name="normal" tools:ignore="ReferenceType">monospace</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="faculty_name">Faculty Name</string>
+    <string name="faculty_e_mail">Faculty e-mail</string>
+    <string name="faculty_phone_number">Faculty phone number</string>
+    <string name="faculty_post">faculty post</string>
+    <string name="add_faculty">Add Faculty</string>
+    <string name="enter_new_e_mail">Enter new e-mail</string>
+    <string name="welcome_to_gnit">Welcome! to GNIT</string>
+    <string name="username">username</string>
+    <string name="reset_password1">Reset Password?</string>
+    <string name="computer_science_and_engineering">Computer Science and Engineering</string>
+
+    <string name="information_technology">Information Technology</string>
+    <string name="electrical_engineering">Electrical Engineering</string>
+    <string name="computer_application">Computer Application</string>
+    <string name="electronics_and_instrumentation_engineering">Electronics and Instrumentation Engineering</string>
+    <string name="electronics_and_communication_engineering">Electronics and Communication Engineering</string>
+    <string name="applied_science_and_humanities">Applied Science and Humanities</string>
+    <string name="your_email">your email</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="convocation">Convocation</string>
+    <string name="sih">SIH</string>
+
+    <string name="icm_icpc">ICM ICPC</string>
+    <string name="republic_day">Republic Day</string>
+    <string name="independence_day">Independence Day</string>
+    <string name="industrial_visit">Industrial Visit</string>
+    <string name="others">Others</string>
+    <string name="log_in">Log In</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="todo">TODO</string>
+    <string name="food_technology">Food Technology</string>
+    <string name="btech_1st_year">BTech 1st year</string>
+    <string name="btech_2nd_year">BTech 2nd year</string>
+    <string name="btech_3rd_year">BTech 3rd year</string>
+    <string name="btech_4th_year">BTech 4th year</string>
+    <string name="cse">CSE</string>
+    <string name="it">IT</string>
+    <string name="ft">FT</string>
+    <string name="ee">EE</string>
+    <string name="eie">EIE</string>
+    <string name="ece">ECE</string>
+    <string name="search_here">search here</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="your_name">Your name:</string>
+    <string name="your_e_mail">Your e-mail:</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="e_mail">e-mail</string>
+    <string name="phone">Phone</string>
+    <string name="post">Post</string>
+    <string name="name">Name</string>
+    <string name="update2">Update</string>
+    <string name="upload_notice">upload notice</string>
+    <string name="notice_title">Notice title</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="upload_photo">upload photo</string>
+    <string name="upload">Upload</string>
+    <string name="choose_pdf">Choose pdf</string>
+    <string name="no_file_chosen">No file chosen</string>
+    <string name="pdf_title">Pdf Title</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="update_info">Update Info</string>
+    <string name="_9876789658">9876789658</string>
+    <string name="sourish_gmail_com">sourish@gmail.com</string>
+    <string name="assistent_professor">Assistent Professor</string>
+    <string name="sourish_mitra">Sourish Mitra</string>
+    <string name="no_data_found">No data found</string>
+    <string name="admin_app">Admin App</string>
+    <string name="_2_20_pm">2:20 pm</string>
+    <string name="_15_aug_2020">15 aug 2020</string>
+    <string name="dot">.</string>
+    <string name="this_is_text">This is text</string>
+    <string name="update">update</string>
+    <string name="pdf_name">pdf name</string>
+
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>
